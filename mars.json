@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Flower Sea",
+			"oem": "Xiaomi",
+			"device": "Xiaomi 11 Pro",
+			"filename": "crDroidAndroid-12.1-20221003-mars-v8.9.zip",
+			"download": "https://sourceforge.net/projects/flowersea/crDroid/crDroidAndroid-12.1-20221003-mars-v8.9.zip/download",
+			"timestamp": 1664765999,
+			"md5": "4512054a64399344d40bf7d283fc09a6",
+			"sha256": "2b4dfc8c714838f5628b84d33fc3f68df4bdba029451dfc60c50a475748dcfc6",
+			"size": 1766603971,
+			"version": "8.9",
+			"buildtype": "Monthly",
+			"forum": "",
+			"gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-SL/",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "https://t.me/MarsStarDevelopment",
+			"dt": "https://github.com/FlowerSea0208/device_xiaomi_mars/tree/crDroid12",
+			"common-dt": "https://github.com/FlowerSea0208/device_xiaomi_sm8350-common/tree/crDroid12",
+			"kernel": "https://github.com/FlowerSea0208/kernel_xiaomi_mars"
+		}
+	]
+}
