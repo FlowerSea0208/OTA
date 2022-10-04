@@ -1,1 +1,59 @@
 Initial unofficial build with OTA support
+
+device_xiaomi_sm8350-common:
+sm8350-common: Commonize Display calibration configs 
+sm8350-common: overlay: Add support for doze auto brightness 
+sm8350-common: Add xiaomi cit sensor service 
+sm8350-common: Generate the apex image. 
+sm8350-common: vibrator: Update effect names 
+sm8350-common: gpt-utils: Do fsync after writing partition entries 
+sm8350-common: gpt-utils: Drop unused sparse_crc32 
+sm8350-common: audio: Don't advertise vorbis offloading support 
+Partially revert "sm8350-common: audio: remove unsupported configurat… 
+sm8350-common: Drop audio_configs.xml
+sm8350-common: Copy snapdragon color libs config from display HAL 
+sm8350-common: Copy powerhint.xml from power HAL 
+sm8350-common: hal: audio: Update gain to 84 for WSA MCS devices 
+sm8350-common: hal: set valid and supported channel mask for earpiece 
+sm8350-common: configs: Add Stereo config channel support to usb surround sound
+fixup! sm8350-common: sepolicy: Label more wakeup nodes 
+sm8350-common: Drop QTI camera device usage 
+sm8350-common: overlay: Switch to vendor-defined color modes 
+sm8350-common: Update to Boot Control HAL v1.2 
+sm8350-common: bootctrl: Remove bootctrl.xiaomi_sm8350 target 
+sm8350-common: gpt-utils: Update PTN_SWAP_LIST and handle multiimg
+sm8350-common: gpt-utils: Add product to ab partition list 
+Revert "sm8350-common: Drop all component overrides" 
+sm8350-common: parts: Thermal settings's app list improvement 
+sm8350-common: overlay: Allow user to select WiFi Calling while roaming
+sm8350-common: parts: Target current sdk
+sm8350-common: parts: Declare exported flags in manifest for SDK 32
+sm8350-common: overlay: drop sw372dp dimens 
+sm8350-common: parts: set default doze brightness to HBM 
+sm8350-common: parts: make doze brightness mode persistent 
+sm8350-common: parts: always restore doze mode on boot 
+sm8350-common: parts/thermal: drop intent filter and profile reset 
+sm8350-common: fingerprint: also disable fod hbm on cancel() 
+sm8350-common: configs: sync component override with stock 
+
+source Changelog:
+Added QS tile layout settings
+Added option to display accented chip behind clock
+Added option to change QS tile label text size
+Fixed some issues with VolumeDialog
+Dialer: adjusted close button location
+Various Launcher fixes and improvements
+Updated zlib, harfbuzz_ng, arm-optimized-routines, bionc
+Some other small changes to UI
+Some other small changes to performance
+Updated translations
+Updated security patch level to 2022-09-05
+PixelPropsUtils: Update fingerprints to September 2022 release
+Added ability to resize QS & Statusbar Clock
+Dialer: Added toggle for post call snackbar
+Dialer: Move Sensor settings to Other settings
+Update statusbar burn-in protection shift base padding when orientation changed
+Added smart charging
+Added reset battery stats option
+Update Chromium Webview to 105.0.5195.68
+Some small dark mode fixes
