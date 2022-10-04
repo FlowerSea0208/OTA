@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Flower Sea",
+			"oem": "Xiaomi",
+			"device": "Xiaomi 11",
+			"filename": "crDroidAndroid-12.1-20220823-venus-v8.8.zip",
+			"download": "https://sourceforge.net/projects/test-mars/files/venus/",
+			"timestamp": ,
+			"md5": "",
+			"sha256": "",
+			"size": ,
+			"version": "8.8",
+			"buildtype": "Monthly",
+			"forum": "",
+			"gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-SL/",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "https://t.me/mi11dev",
+			"dt": "https://github.com/FlowerSea0208/device_xiaomi_venus/tree/12.1",
+			"common-dt": "https://github.com/FlowerSea0208/device_xiaomi_sm8350-common/tree/crDroid12",
+			"kernel": "https://github.com/PixelExperience-Devices/kernel_xiaomi_venus"
+		}
+	]
+}
