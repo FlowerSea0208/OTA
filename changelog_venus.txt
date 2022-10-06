@@ -1,6 +1,9 @@
 Initial unofficial build with OTA support
 
-device_xiaomi_sm8350-common:
+
+* device/xiaomi/sm8350-common
+sm8350-common: rootdir: Prefer s2idle over deep for lahaina 
+sm8350-common: Set manufacturer soc property
 sm8350-common: Commonize Display calibration configs 
 sm8350-common: overlay: Add support for doze auto brightness 
 sm8350-common: Add xiaomi cit sensor service 
@@ -36,7 +39,7 @@ sm8350-common: parts/thermal: drop intent filter and profile reset
 sm8350-common: fingerprint: also disable fod hbm on cancel() 
 sm8350-common: configs: sync component override with stock 
 
-source Changelog:
+* source Changelog:
 Added QS tile layout settings
 Added option to display accented chip behind clock
 Added option to change QS tile label text size
